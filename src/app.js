@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Search, Home, ShoppingCart, Book, User, Award, Scan, Bell, MessageCircle, TrendingUp, ExternalLink, Sparkles, ChevronRight, BarChart3, Calendar, Mic, Send, ChevronDown, ChevronUp } from 'lucide-react';
+const { useState, useEffect, useRef } = React;
+const { Search, Home, ShoppingCart, Book, User, Award, Scan, Bell, MessageCircle, TrendingUp, ExternalLink, Sparkles, ChevronRight, BarChart3, Calendar, Mic, Send, ChevronDown, ChevronUp } = lucide;
 
 export default function BusyDoctorBeeApp() {
   const [activeTab, setActiveTab] = useState('home');
