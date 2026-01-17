@@ -638,3 +638,7 @@ export default function BusyDoctorBeeApp() {
     </div>
   );
 }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<BusyDoctorBeeApp />);const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<BusyDoctorBeeApp />);
